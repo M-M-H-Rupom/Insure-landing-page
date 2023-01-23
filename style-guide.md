@@ -11,24 +11,35 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
 
 ### Neutral
 
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
 - Very Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 15px
+- Font size: 16px
 
-### Fonts
+### Headings
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600
+- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Weights: 400
+
+### Body
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+
+## Icons
+
+You can use either use the social icons provided or load in a font icon library. Some library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)

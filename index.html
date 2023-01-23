@@ -5,62 +5,210 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Insure landing page</title>
 
   <link rel="stylesheet" href="output\tailwind.css">
- 
- <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"> -->
-  
-  
-  <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-  </style>
 </head>
-<body class=" text-red-600 min-h-full w-full justify-center flex items-center font-Poppins ">
- 
-  <div class="p-10 w-96 lg:w-full" > 
+<body class="">
 
-    <div class=" p-2">
-  <h1 class="text-GrayishBlue text-2xl text-center"> Reliable, efficient delivery</h1>
-  <h1 class="font-bold text-2xl text-DarkBlue text-center">Powered by Technology</h1>
 
-  <p class="text-base text-center py-4 pb-10 text-GrayishBlue">Our Artificial Intelligence powered tools use millions of project data <br> points 
-    to ensure that your project is successful</p>
+    <!doctype html>
+    <html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>KindaCode.com</title>
+    </head>
+    
+    <body class=" font-Poppins">
+        <header class=" pt-2 pr-6 pb-5 bg-LightGray shadow-md">
+            <div class="container mx-auto flex justify-between items-center">
+              <a class="block box-border h-16 w-40 md:h-20 md:w-40  overflow-hidden  transform " href="">
+              <img class=" text-Dark_Violet pt-7 pl-6" src="images\logo.svg " alt=" ">
+            </a>
+          <div>
+            <button id="toggle-menu-button" class="z-50 md:hidden relative">
+              <span class="sr-only">Toggle Menu</span>
+              <div id="open" class="  h-5 flex flex-col items-end justify-between">
+                <span class="block h-0.5 w-7 bg-Dark_Violet rounded-full"></span>
+              <span class="block h-0.5 w-7 bg-Dark_Violet rounded-full"></span>
+              <span class="block h-0.5 w-7 bg-Dark_Violet rounded-full"></span>
+              </div>
+              <div  id="close" class=" hidden h-7 flex flex-col items-end justify-between">
+                <span class="block h-0.5 w-8 bg-LightGray rounded-full origin-left transform rotate-45 translate-y-0.5"></span>
+              <span class="block h-0.5 w-8 bg-LightGray rounded-full origin-left transform -rotate-45 -translate-y-0.5"></span>
+              </div>
+            </button>
+            <div id="toggle-menu" class="hidden md:block  text-LightGray text-center text-3xl bg-gray-800 fixed top-0 left-0 h-screen w-screen flex flex-col items-center justify-center md:text-lg md:relative md:text-red-900 md:bg-transparent md:w-auto md:h-auto md:text-left">
+              <ul class="flex flex-col  md:flex-row  md:hover:text-LightGray gap-y-8">
+              <li class="md:px-2 md:border-red-200">
+                <a href="" class="transition ease-in-out duration-150 hover:opacity-60 md:text-Dark_Violet md:hover:text-LightGray md:hover:bg-Dark_Violet py-1 px-3 rounded-lg ">    How we work
+                    
+                   
+                    </a></li>
+              <li class=" md:px-2 md:border-red-200 ">
+                <a href="" class="transition ease-in-out duration-150 hover:opacity-60 md:text-Dark_Violet md:hover:text-LightGray md:hover:bg-Dark_Violet py-1 px-3 rounded-lg">Blog</a>
+              </li>
+              <li class=" md:px-2 md:border-red-200">
+                <a href="" class="transition ease-in-out duration-150 hover:opacity-60  md:text-Dark_Violet md:hover:text-LightGray md:hover:bg-Dark_Violet py-1 px-3 rounded-lg ">  Account</a>
+              </li>
+              <li class=" md:px-2 md:border-red-200">
+                <a href="" class="transition ease-in-out duration-150 hover:opacity-60 md:text-Dark_Violet md:hover:text-LightGray md:hover:bg-Dark_Violet py-1 px-3 rounded-lg">View plans </a>
+              </li>
+              
+            </ul>
+            </div>
+          </div>
+            </div>
+          </header>
 
-  </div>
+          
 
-  <div class=" lg:flex lg:justify-evenly lg:items-center lg:grow"> 
+          <div class=" ">
+            <img class="w-full md:w-1/4 md:mr-20 md:mt-14 md:float-right md:ml-5" src="images\image-intro-mobile.jpg"  alt="">  
+          </div>
 
-    <div class="lg:w-80 p-6 shadow-md shadow-GrayishBlue border-t-4 border-Cyan rounded-lg mt-6">
-      <h2 class="text-DarkBlue font-bold">Supervisor</h2>
-    <p class="text-sm py-2 text-GrayishBlue "> Monitors activity to identify project roadblocks</p>
-    <div class="flex justify-end py-2 pt-6"> <img src="images\icon-supervisor.svg" alt=""> </div>
-    </div>
+          <div class=" md:pl-16 md:text-start text text-center md:pb-12  md:pt-12 bg-Dark_Violet text-LightGray">
+            <h1 class="font-bold text-3xl p-3 m-5 mt-0 pt-9">  Humanizing your insurance.</h1>
+            <p class="px-5 md:ml-2 "> Get your life insurance coverage easier and faster. We blend our expertise 
+              and technology to help you find the plan that’s right for you. Ensure you 
+              and your loved ones are protected.</p>
+
+              <button class="px-5 py-1 border-2 m-7 mb-14 hover:text-Dark_Violet hover:bg-LightGray"> View plans</button>
+          </div>
+
+          
+
+          <div class=" md:p-6 md:px-12 mb-12">
+      
+            <div class="md:pl-4 ">
+              <div class="text-center w-28 h-1 border-t-Dark_Violet border-t-2 mt-24 m-auto my-9 md:ml-0 "></div> 
   
-    <div class="lg:flex lg:flex-col lg:m-7"> <div class=" lg:w-80 p-6 shadow-md shadow-GrayishBlue border-t-4 border-Red rounded-lg mt-6 xl:mb-14">
-      <h2 class="text-DarkBlue font-bold"> Team Builder</h2>
-     <p class="text-sm py-2 text-GrayishBlue">Scans our talent network to create the optimal team for your project</p>
-     <div class="flex justify-end py-2 pt-6"> <img src="images\icon-team-builder.svg" alt=""> </div>
-     </div>
-   
-     <div class=" lg:w-80 p-6 shadow-md shadow-GrayishBlue border-t-4 border-Orange rounded-lg mt-6 ">
-      <h2 class="text-DarkBlue font-bold"> Karma</h2>
-     <p class="text-sm py-2 text-GrayishBlue"> Regularly evaluates our talent to ensure quality</p>
-     <div class="flex justify-end py-2 pt-6"> <img src="images\icon-karma.svg" alt=""> </div>
-     </div></div>
-  
-    <div class=" lg:w-80 p-6 shadow-md shadow-GrayishBlue border-t-4 border-Blue rounded-lg mt-6">
-     <h2 class="text-DarkBlue font-bold">  Calculator</h2>
-    <p class=" text-sm py-2 text-GrayishBlue">Uses data from past projects to provide better delivery estimates</p>
-    <div class="flex justify-end py-2 pt-6"> <img src="images\icon-calculator.svg" alt=""> </div>
-    </div>
+            </div>
 
-  </div>
+          <div class=" ">   
 
-  
-</div>
+          <div class="text-center font-bold text-3xl p-3 m-5 md:m-0 md:text-start"> <h1>We’re different </h1></div>
+         
+          </div>
+
+          <div class="text-center md:flex md:justify-evenly md:gap-2  md:items-start"> 
+
+          <div class="snappy md:p-4 md:text-start md:flex md:flex-col">  
+            <img class="md:text-start mx-auto items-start md:ml-0 my-4 mt-12" src="images\icon-snappy-process.svg" alt="">
+            <h2 class="font-bold text-xl py-4">Snappy Process </h2>
+            <p class=" px-8 md:pl-0 text-Grayish_Violet "> Our application process can be completed in minutes, not hours. Don’t get 
+              stuck filling in tedious forms.</p>
+          </div>
+
+
+          <div class="Affordable md:p-4 md:text-start md:flex md:flex-col">  
+            <img class=" md:text-start mx-auto items-start md:ml-0 my-4 mt-12" src="images\icon-affordable-prices.svg" alt="">
+            <h2 class="font-bold text-xl py-4 ">Affordable Prices </h2>
+            <p class=" px-8 md:pl-0 text-Grayish_Violet"> We don’t want you worrying about high monthly costs. Our prices may be low, 
+              but we still offer the best coverage possible.</p>
+          </div>
+
+
+          <div class="people md:p-4 md:text-start md:flex md:flex-col">  
+            <img class=" md:text-start mx-auto items-start md:ml-0 my-4 mt-12" src="images\icon-people-first.svg" alt="">
+            <h2 class=" font-bold text-xl py-4"> People First </h2>
+            <p class=" px-8 md:pl-0 text-Grayish_Violet"> Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+              sure you’re covered when you need it.</p>
+          </div>
+
+
+          </div>
+
+
+          <div class=" md:mt-12 md:flex-1 md:flex md:justify-between md:items-center bg-Dark_Violet text-center text-LightGray mx-4">  
+           
+          <h1 class=" md:mt-7 md:pl-4 md:text-start   md:py-4 md:pb-8 md:text-4xl font-bold text-3xl p-5 m-5 mt-11 pt-16 "> Find out more about how we work </h1>
+
+          <button class=" md:px-1 md:mr-6  px-5 py-1 border-2 mb-14 md:mb-0 hover:text-Dark_Violet hover:bg-LightGray"> How we work </button>
+
+          </div>
+           
+           <div class="md:flex md:justify-between md:items-center md:pr-4 md:mt-16 ">
+
+          <div class=" p-4 mt-8 text-center">
+            <img class=" m-auto pb-4" src="images\logo.svg " alt="">
+          </div>
+
+          <div class="flex justify-center gap-3 text-xs md:pt-2">
+            <span> <img class=" hover:cursor-pointer " src="images\icon-facebook.svg" alt=""> </span>
+            <span> <img class=" hover:cursor-pointer" src="images\icon-twitter.svg" alt=""> </span>
+            <span> <img class=" hover:cursor-pointer" src="images\icon-pinterest.svg " alt=""></span>
+            <span>  <img class=" hover:cursor-pointer" src="images\icon-twitter.svg " alt=""> </span>
+          </div>
+
+        </div>
+
+         <div class=" md:mt-0 w-4/5 md:w-11/12 m-auto my-11 h-1 border-t-2 border-GrayishBlue ">
+
+         </div>
+
+
+        <div class=" md:flex md:justify-between md:items-start  md:mr-12 ">
+          
+          
+       <div class=" flex justify-center flex-col items-center gap-1 font-medium text-Dark_Violet p-4">
+         
+        <span class=" text-Grayish_Blue pb-4">  Our company  </span>
+
+       <span class="hover:underline hover:cursor-pointer ">  How we work</span>
+       <span class=" hover:underline hover:cursor-pointer">  Why Insure? </span>
+       <span class=" hover:underline hover:cursor-pointer">  View plans</span>
+       <span class="hover:underline hover:cursor-pointer">   Reviews</span>
+
+       </div>
+
+       <div class=" flex justify-center flex-col items-center gap-1 font-medium text-Dark_Violet p-4">
+         <span class=" text-Grayish_Blue pb-4">   Help me</span>
+        <span class="hover:underline hover:cursor-pointer ">FAQ </span>
+        <span class="hover:underline hover:cursor-pointer ">Terms of use </span>
+        <span class="hover:underline hover:cursor-pointer ">Privacy policy </span>
+        <span class="hover:underline hover:cursor-pointer ">Cookies </span>
+       </div>
+
+       <div class=" flex justify-center flex-col items-center gap-1 font-medium text-Dark_Violet p-4">
+        <span class=" text-Grayish_Blue pb-4">    Contact</span>
+       <span class="hover:underline hover:cursor-pointer "> Sales </span>
+       <span class="hover:underline hover:cursor-pointer ">Support</span>
+       <span class="hover:underline hover:cursor-pointer ">Live chat </span>
+       
+      </div>
+
+      <div class=" flex justify-center flex-col items-center gap-1 font-medium text-Dark_Violet p-4">
+        <span class=" text-Grayish_Blue pb-4">   Others </span>
+       <span class="hover:underline hover:cursor-pointer ">  Careers </span>
+       <span class="hover:underline hover:cursor-pointer ">Press</span>
+       <span class="hover:underline hover:cursor-pointer ">Licenses </span>
+       
+      </div>
+        </div>
+
+      </div> 
+            
+
+    <script>
+
+          var button = document.querySelector('#toggle-menu-button');
+          var menu = document.querySelector('#toggle-menu');
+          var open = document.querySelector('#open');
+          var close = document.querySelector('#close');
+
+          button.addEventListener('click', (e)=>{
+          menu.classList.toggle('hidden');
+          open.classList.toggle('hidden');
+          close.classList.toggle('hidden');
+           });
+
+    </script>
 
 </body>
 </html>
